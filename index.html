@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>home</title>
+</head>
+<body>
+<!-- Modal -->
+<div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="menuModalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content bg">
+            <div class="container">
+                <!--<img src="img/modal-bg.png" alt="" class="modal-img">-->
+                <div class="row justify-content-between">
+                    <div class="col">
+                        <img src="img/logo-light.png" alt="" class="logo">
+                    </div>
+                    <div class="col text-right">
+                        <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
+                            <span class="semibold">Закрыть</span>
+                            <span class="material-icons cancel">cancel</span>
+                        </button>
+                    </div>
+                    <div class="col-12">
+                        <ul class="navbar-nav visible-767">
+                            <li class="nav-item active">
+                                <a class="nav-link pl-0" href="#">рус<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">кыр</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">eng</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-5">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                             aria-orientation="vertical">
+                            <a class="nav-link active return-btn" id="v-pills-company-tab" data-toggle="pill"
+                               href="#v-pills-company" role="tab" aria-controls="v-pills-company"
+                               aria-selected="true">
+                                О компании
+                                <span class="material-icons">chevron_right</span>
+                            </a>
+                            <a class="nav-link return-btn" id="v-pills-enterprise-tab" data-toggle="pill"
+                               href="#v-pills-enterprise" role="tab" aria-controls="v-pills-enterprise"
+                               aria-selected="false">
+                                Предприятия
+                                <span class="material-icons">chevron_right</span>
+                            </a>
+                            <a class="nav-link return-btn" id="v-pills-investors-tab" data-toggle="pill"
+                               href="#v-pills-investors"
+                               role="tab" aria-controls="v-pills-investors" aria-selected="false">
+                                Инвесторам
+                                <span class="material-icons">chevron_right</span>
+                            </a>
+                            <a class="nav-link return-btn" id="v-pills-mass-media-tab" data-toggle="pill"
+                               href="#v-pills-mass-media" role="tab" aria-controls="v-pills-mass-media"
+                               aria-selected="false">
+                                Пресс - центр
+                                <span class="material-icons">chevron_right</span>
+                            </a>
+                            <a class="nav-link return-btn" id="v-pills-media-tab" data-toggle="pill" href="#v-pills-media"
+                               role="tab" aria-controls="v-pills-media" aria-selected="false">
+                                Медиа
+                                <span class="material-icons">chevron_right</span>
+                            </a>
+                            <a class="nav-link return-btn" id="v-pills-contacts-tab" data-toggle="pill"
+                               href="#v-pills-contacts"
+                               role="tab" aria-controls="v-pills-contacts" aria-selected="false">
+                                Контакты
+                                <span class="material-icons">chevron_right</span>
+                            </a>
+                        </div>
+                        <div class="social-icons">
+                            <a href=""><img src="img/facebook-md.png" alt=""></a>
+                            <a href=""><img src="img/instagram-md.png" alt=""></a>
+                            <a href=""><img src="img/whatsapp-md.png" alt=""></a>
+                            <a href=""><img src="img/twitter-md.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-sm-7">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-company" role="tabpanel"
+                                 aria-labelledby="v-pills-company-tab">
+                                <a href="about.html" class="bold">О компании</a>
+                                <a href="about.html">О нас</a>
+                                <a href="investors.html">Каганат Инвест сегодня</a>
+                                <a href="about.html">История компании</a>
+                                <a href="about.html">Миссия, виденье и ценности</a>
+                                <a href="about.html">Отрасли</a>
+                                <a href="about.html">Награды</a>
+                                <a href="about.html">Сертификаты и лицензии</a>
+                                <a class="return-btn bold">
+                                    <span class="material-icons">chevron_left</span>Назад
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-enterprise" role="tabpanel"
+                                 aria-labelledby="v-pills-enterprise-tab">
+                                <a href="projects.html" class="bold">Предприятия</a>
+                                <a href="companies.html">Строительная компания "IHLAS"</a>
+                                <a href="project-description.html">Текстильный кластер "Kyrgyz Textile"</a>
+                                <a href="projects.html">Теле-радио компания "Global TV - NET"</a>
+                                <a href="article.html">Проектный институт "Ak Bashat"</a>
+                                <a href="article.html">Энергокомпания "Energo Company"</a>
+                                <a href="companies.html">Машиностроение "Kyrgyz Unaa Kurulush"</a>
+                                <a href="companies.html">Футбольный клуб "Kanagat"</a>
+                                <a href="companies.html">Строительная компания "Arek - Stroy"</a>
+                                <a class="return-btn bold">
+                                    <span class="material-icons">chevron_left</span>Назад
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-investors" role="tabpanel"
+                                 aria-labelledby="v-pills-investors-tab">
+                                <a href="investors.html" class="bold">Инвесторам</a>
+                                <a href="project-description.html">Презентация строительной компании "IHLAS"</a>
+                                <a href="project-description.html">Презентация швейной фабрики "Kyrgyz Textile"</a>
+                                <a href="project-description.html">Презентация машиностроительного завода "Kyrgyz Unaa Kurulush"</a>
+                                <a class="return-btn bold">
+                                    <span class="material-icons">chevron_left</span>Назад
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-mass-media" role="tabpanel"
+                                 aria-labelledby="v-pills-mass-media-tab">
+                                <a href="blog.html" class="bold"> Пресс - центр</a>
+                                <a href="blog.html">Новости</a>
+                                <a href="blog.html">События</a>
+                                <a href="blog.html">СМИ о нас</a>
+                                <a href="blog.html">Медиа</a>
+                                <a href="contact.html">Контакты пресс службы</a>
+                                <a class="return-btn bold">
+                                    <span class="material-icons">chevron_left</span>Назад
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-media" role="tabpanel"
+                                 aria-labelledby="v-pills-media-tab">
+                                <a href="" class="bold">Медиа</a>
+                                <a href="">История основания строительной компании "IHLAS" </a>
+                                <a href="">Что из себя представляет Каганат Инвест сегодня?</a>
+                                <a href="">Кыргыз Текстиль как бренд. Основа для дальнейшего экспорта отечественной продукции</a>
+                                <a class="return-btn bold">
+                                    <span class="material-icons">chevron_left</span>Назад
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-contacts" role="tabpanel"
+                                 aria-labelledby="v-pills-contacts-tab">
+                                <a href="contact.html" class="bold">Контакты</a>
+                                <a href="tel:+996551720230">+996 551 720 230</a>
+                                <a href="mailto:info@kagantinvest.kg">info@kaganatinvest.kg</a>
+                                <a href="">Бишкек, ул. Бакаева, 132</a>
+                                <a class="return-btn bold">
+                                    <span class="material-icons">chevron_left</span>Назад
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/kaganat_logo.png" alt="">
+            </a>
+            <div class="custom-col">
+                <a class="search-btn" data-toggle="collapse" href="#collapseSearch" role="button" aria-expanded="false" aria-controls="collapseSearch">
+                    <span class="material-icons search-icon">search</span>
+                    <span class="search-text hidden-767">Поиск</span>
+                </a>
+                <ul class="navbar-nav hidden-767">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">рус<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">кыр</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">eng</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn custom-btn" data-toggle="modal" data-target="#menuModal">
+                    <span class="custom-menu"></span>
+                    <span class=" hidden-767">Меню</span>
+                </button>
+            </div>
+            <div class="collapse" id="collapseSearch">
+                <form>
+                    <input type="text" placeholder="Поиск">
+                    <button type="submit" class="btn">
+                        <span class="material-icons search-icon">search</span>
+                    </button>
+                    <a class="search-btn" data-toggle="collapse" href="#collapseSearch" role="button" aria-expanded="false" aria-controls="collapseSearch">
+                        <span class="material-icons">cancel</span>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<section class="bg bg-1 bg-1-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="bg-title">Инвестируем <br class="visible-425">в будущее</div>
+                <a href="about.html" class="semibold">Узнайте больше о нашей компании</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="info">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-6">
+                <div class="semibold-title">Каганат Инвест это качество, надежность <br class="hidden-425">и инновационность в каждом решении</div>
+            </div>
+            <div class="col-lg-10">
+                <div class="text">
+                    Методология Каганат Инвест, основанная на адаптации лучших мировых практик реализации проектов к
+                    русской инженерной традиции в соответствии с национальным законодательством, гарантирует успешный
+                    опыт реализации проектов на всех его стадиях.
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="hr"></div>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-lg-4 col-md-4">
+                <div class="bold-title">5 000 <br>рабочих мест</div>
+                <div class="text">Созданных холдингом Каганат Инвест по всей территории Кыргызской Республики.
+                    Одной из целей холдинга является борьба с безработицей и снижение процента безработных граждан.</div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="bold-title">9 <br>предприятий</div>
+                <div class="text">Которые призваны улучшить не только экономические аспекты жизни человека, но и социальные.
+                    Все проекты реализуемые Каганат Инвест направлены на социальное развитие и благополучие людей через открытие новых возможностей.</div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="bold-title">15 <br>стран партнеров</div>
+                <div class="text">Что позволяет заимствовать опыт у специалистов из других стран. Также, это открывает большие возможности для импорта и экспорта товаров и сырья, тем самым обеспечивая рост экономики в стране.</div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-8">
+                <a href="projects.html" class="custom-link custom-link-border-radius">
+                    <span class="material-icons custom-link-purple-bg-icon">desktop_windows</span>
+                    <div class="link-text">
+                        <div>
+                            <div class="link-title">Презентационные материалы</div>
+                            <div class="semibold">Смотреть</div>
+                        </div>
+                        <span class="material-icons chevron-right">chevron_right</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="projects">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 ">
+                <div class="semibold-title">Наши проекты</div>
+                <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elementum posuere dapibus. Curabitur vulputate, lacus vitae malesuada sagittis, erat ligula feugiat purus, hendrerit congue urna ligula sit amet </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="companies.html" class="project-card active">
+                    <img src="img/project-1.png" alt="">
+                    <div class="custom-link">
+                        <div class="link-text">
+                            <div>
+                                <div class="link-title">Строительная компания "IHLAS"</div>
+                                <div class="semibold">Перейти</div>
+                            </div>
+                            <span class="material-icons chevron-right">chevron_right</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="project-description.html" class="project-card">
+                    <img src="img/project-2.png" alt="">
+                    <div class="custom-link">
+                        <div class="link-text">
+                            <div>
+                                <div class="link-title">Текстильный кластер "Kyrgyz Textile"</div>
+                                <div class="semibold">Перейти</div>
+                            </div>
+                            <span class="material-icons chevron-right">chevron_right</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="companies.html" class="project-card">
+                    <img src="img/project-3.png" alt="">
+                    <div class="custom-link">
+                        <div class="link-text">
+                            <div>
+                                <div class="link-title">Теле-радио компания "Global TV - NET"</div>
+                                <div class="semibold">Перейти</div>
+                            </div>
+                            <span class="material-icons chevron-right">chevron_right</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="companies.html" class="project-card">
+                    <img src="img/project-4.png" alt="">
+                    <div class="custom-link">
+                        <div class="link-text">
+                            <div>
+                                <div class="link-title">Проектный институт "Ak Bashat"</div>
+                                <div class="semibold">Перейти</div>
+                            </div>
+                            <span class="material-icons chevron-right">chevron_right</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="companies.html" class="project-card">
+                    <img src="img/project-5.png" alt="">
+                    <div class="custom-link">
+                        <div class="link-text">
+                            <div>
+                                <div class="link-title">Энергокомпания "Energo Company"</div>
+                                <div class="semibold">Перейти</div>
+                            </div>
+                            <span class="material-icons chevron-right">chevron_right</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="companies.html" class="project-card">
+                    <img src="img/project-6.png" alt="">
+                    <div class="custom-link">
+                        <div class="link-text">
+                            <div>
+                                <div class="link-title">Машиностроение "Kyrgyz Unaa Kurulush"</div>
+                                <div class="semibold">Перейти</div>
+                            </div>
+                            <span class="material-icons chevron-right">chevron_right</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="companies.html" class="project-card">
+                    <img src="img/project-7.png" alt="">
+                    <div class="custom-link">
+                        <div class="link-text">
+                            <div>
+                                <div class="link-title">Футбольный клуб "Kanagat"</div>
+                                <div class="semibold">Перейти</div>
+                            </div>
+                            <span class="material-icons chevron-right">chevron_right</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="companies.html" class="project-card">
+                    <img src="img/project-8.png" alt="">
+                    <div class="custom-link">
+                        <div class="link-text">
+                            <div>
+                                <div class="link-title">Строительная компания "Arek - Stroy"</div>
+                                <div class="semibold">Перейти</div>
+                            </div>
+                            <span class="material-icons chevron-right">chevron_right</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="semibold-title">Наши новости</div>
+                <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elementum posuere dapibus. Curabitur vulputate, lacus vitae malesuada sagittis, erat ligula feugiat purus, hendrerit congue urna ligula sit amet </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="article.html" class="blog-card">
+                    <div class="blog-title">"IHLAS" становится генеральным спонсором ФФКР</div>
+                    <div class="bg-white">
+                        <div class="text">Строительная компания "IHLAS" становится генеральным спонсором Федерации
+                            Футбола Кыргызской Республики и оказывает финансовую поддержку кыргызстанскому футболу в
+                            размере $130 тысяч
+                        </div>
+                        <div class="read-more">Читать далее ...</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="article.html" class="blog-card">
+                    <div class="blog-title">"IHLAS" становится генеральным спонсором ФФКР</div>
+                    <div class="bg-white">
+                        <div class="text">Строительная компания "IHLAS" становится генеральным спонсором Федерации Футбола Кыргызской Республики и оказывает финансовую поддержку кыргызстанскому футболу в размере $130 тысяч</div>
+                        <div class="read-more">Читать далее ...</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="article.html" class="blog-card">
+                    <div class="blog-title">"IHLAS" становится генеральным спонсором ФФКР</div>
+                    <div class="bg-white">
+                        <div class="text">Строительная компания "IHLAS" становится генеральным спонсором Федерации Футбола Кыргызской Республики и оказывает финансовую поддержку кыргызстанскому футболу в размере $130 тысяч</div>
+                        <div class="read-more">Читать далее ...</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 hidden-425">
+                <a href="article.html" class="blog-card">
+                    <div class="blog-title">"IHLAS" становится генеральным спонсором ФФКР</div>
+                    <div class="bg-white">
+                        <div class="text">Строительная компания "IHLAS" становится генеральным спонсором Федерации Футбола Кыргызской Республики и оказывает финансовую поддержку кыргызстанскому футболу в размере $130 тысяч</div>
+                        <div class="read-more">Читать далее ...</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 hidden-425">
+                <a href="article.html" class="blog-card">
+                    <div class="blog-title">"IHLAS" становится генеральным спонсором ФФКР</div>
+                    <div class="bg-white">
+                        <div class="text">Строительная компания "IHLAS" становится генеральным спонсором Федерации Футбола Кыргызской Республики и оказывает финансовую поддержку кыргызстанскому футболу в размере $130 тысяч</div>
+                        <div class="read-more">Читать далее ...</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row visible-425">
+            <div class="col-lg-4">
+                <a href="article.html" class="read-more">Показать еще</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="media">
+    <div class="container">
+        <div class="semibold-title">Медиа</div>
+        <div class="row">
+            <div class="col-xl-4 col-md-6">
+                <a href="article.html" class="custom-link custom-link-border-radius">
+                    <img src="img/media-1.png" alt="">
+                    <div class="link-text">
+                        <div>
+                            <div class="link-title">История основания строительной компании "IHLAS" </div>
+                            <div class="semibold">Просмотр видео</div>
+                        </div>
+                        <span class="material-icons play-circle-outline">play_circle_outline</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <a href="article.html" class="custom-link custom-link-border-radius">
+                    <img src="img/media-2.png" alt="">
+                    <div class="link-text">
+                        <div>
+                            <div class="link-title">Что из себя представляет Каганат Инвест сегодня?</div>
+                            <div class="semibold">Просмотр видео</div>
+                        </div>
+                        <span class="material-icons play-circle-outline">play_circle_outline</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <a href="article.html" class="custom-link custom-link-border-radius">
+                    <img src="img/media-3.png" alt="">
+                    <div class="link-text">
+                        <div>
+                            <div class="link-title">Кыргыз Текстиль как бренд.
+                                Основа для дальнейшего
+                                экспорта отечественной
+                                продукции</div>
+                            <div class="semibold">Просмотр видео</div>
+                        </div>
+                        <span class="material-icons play-circle-outline">play_circle_outline</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="uppercase">
+                    <div class="bold">Каганат</div>
+                    <div class="font-10">Инвест</div>
+                </div>
+            </div>
+            <div class="col-lg-8 mr-auto">
+                <div class="d-flex">
+                    <div>О компании</div>
+                    <div>Предприятия</div>
+                    <div>Инвесторам</div>
+                    <div>Пресс - центр</div>
+                    <div>Медиа</div>
+                    <div>Контакты</div>
+                </div>
+            </div>
+            <div class="col text-right">
+                <form class="d-inline-block">
+                    <input type="search" placeholder="Поиск по сайту">
+                    <button class="btn" type="submit">
+                        <span class="material-icons">search</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-9 ml-auto">
+                <div class="hr"></div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-lg-8">
+                <div class="d-flex">
+                    <div>Контакты</div>
+                    <div>
+                        <a href="tel:+996551720230">Тел: +996 551 720 230</a>
+                        <div>Бишкек, ул. Бакаева, 132</div>
+                    </div>
+                    <div>
+                        <a href="mailto:info@kaganatinvest.kg">info@kaganatinvest.kg</a>
+                        <a href="partners.html" class="font-10">Посмотреть на карте</a>
+                    </div>
+                    <div class="d-flex social-icons">
+                        <a href=""><img src="img/facebook.png" alt=""></a>
+                        <a href=""><img src="img/instagram.png" alt=""></a>
+                        <a href=""><img src="img/whatsapp.png" alt=""></a>
+                        <a href=""><img src="img/twitter.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
